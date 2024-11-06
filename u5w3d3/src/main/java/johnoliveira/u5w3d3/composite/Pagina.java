@@ -9,7 +9,7 @@ public class Pagina implements LibroElement {
 
     @Override
     public int getNumeroPagine() {
-        return 1;  // Parto dalla prima pagina
+        return 1;
     }
 
     @Override

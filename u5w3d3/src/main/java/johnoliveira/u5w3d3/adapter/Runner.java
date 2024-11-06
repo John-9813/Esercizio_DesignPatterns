@@ -9,7 +9,7 @@ public class Runner {
         info.setDataDiNascita("1998-05-15");
 
         // uso adapter
-        InfoAdapter adapter = new InfoAdapter(info);
+        Adapter adapter = new Adapter(info);
 
         // Questo UserData può usare Info grazie ad adapter
         UserData userData = new UserData();

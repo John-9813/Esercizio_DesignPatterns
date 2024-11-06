@@ -1,10 +1,8 @@
 package johnoliveira.u5w3d3.adapter;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
 @Getter
 @Setter
 
@@ -21,7 +19,7 @@ public class Info {
 
     public void setCognome(String cognome) {this.cognome = cognome;}
 
-    public Date getDataDiNascita() {return dataDiNascita;}
+    public String getDataDiNascita() {return dataDiNascita;}
 
     public void DataDiNascita (String dataDiNascita) {this.dataDiNascita = dataDiNascita;}
 }

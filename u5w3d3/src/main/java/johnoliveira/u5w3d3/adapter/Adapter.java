@@ -1,15 +1,14 @@
 package johnoliveira.u5w3d3.adapter;
 
-import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDate;
 import java.time.Period;
 
-public class InfoAdapter implements DataSource {
+public class Adapter implements DataSource {
     private final Info info;
 
     // Costruttore per Info
-    public InfoAdapter(Info info) {
+    public Adapter(Info info) {
         this.info = info;
     }
 

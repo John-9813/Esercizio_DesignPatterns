@@ -5,7 +5,7 @@ public class Runner {
         // creo il libro
         Libro libro = new Libro("Il mio libro", 29.99);
         libro.aggiungiAutore("Mario Rossi");
-        libro.aggiungiAutore("Lucia Bianchi");
+        libro.aggiungiAutore("Luigi Verdi");
 
         // creo pagine e sezioni
         Pagina pagina1 = new Pagina(1);
